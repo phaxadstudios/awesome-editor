@@ -2,7 +2,7 @@
 {
   "name": "awesome-editor",
   "version": "1.0.0",
-  "description": "Stylet.css is an awesome modern CSS framework, designed in the aim of making responsive, beautiful and a website with awesome animations at ease. It is compactible for all browsers: Chrome. Firefox. Edge. IE. Safari. Opera. And also devices, Desktop, Laptop, Tablet, Mobile. Stylet does not require JS, and it is built with CSS.",
+  "description": "This is a simple basic but awesome editor, that works like codepen and w3schools. Powered by Stylet.CSS. More features coming up soon",   
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,11 +12,11 @@
   },
   "homepage": "https://awesome-editor.vercel.app",
   "keywords": [
-    "Stylet css",
-    "css framework",
-    "stylet css framework",
-    "modern css framework",
-    "new css"
+    "editor",
+    "w3schools clone",
+    "codepen clone",
+    "simple editor js",
+    "stylet.css"
   ],
   "author": "Nnamchi Israel <nnamchiisrael@yahoo.com>",
   "author": "Apaxaa Studios",
