@@ -2,7 +2,6 @@
  * 
  * App.js is the javascript file
  * it carries out the main functionality of this project
- * Author: y2mate
 **/ 
 
 
