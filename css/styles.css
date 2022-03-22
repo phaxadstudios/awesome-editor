@@ -1,0 +1,66 @@
+/**
+ * created by y2mate on 10/07/2020
+ * redesigned by nnamchi israel on 20/3/2022
+ * styles.css ~ redesign including Stylet variables
+**/
+*{
+	padding: 0;
+	margin: 0;
+}
+.button{
+	position: fixed;
+	right: 0;
+	padding: 0.4rem;
+	width: 4rem;
+	background: var(--purple);
+	color: var(--white);
+	font-size: 1rem;
+	font-family: Poppins;
+	height: 90vh;
+}
+
+.button:hover{
+	background: var(--white);
+	color: var(--blue);
+}
+
+.main-editor{
+	background: rgb(0, 0, 0, 0.91);
+	display: flex;
+	width: 100%;
+	padding: 1rem;
+	box-shadow: 0 2px 3px var(--dark);
+	position: fixed;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	border: 7px solid #36383f;
+}
+.first{
+	background-color: #1C1B22;
+	width: 50%;
+	color: var(--orange);
+	font-family: Poppins;
+	overflow-x: hidden;
+	overflow-y: auto;
+	white-space: pre;
+	box-shadow: 0px 1px 1px rgb(22, 22, 22);
+	outline: none;
+	padding: 0.4rem;
+	height: 90vh;
+	margin: 2rem;
+}
+.first::selection{
+	background-color: var(--purple);
+	color: var(--white);
+}
+.second{
+	background-color: var(--white);
+	width: 50%;
+	overflow-y: auto;
+	white-space: pre;
+	right: 0;
+	box-shadow: 0 1px rgb(22, 22, 22);
+	padding: 0 .4rem;
+	height: 90vh;
+}
