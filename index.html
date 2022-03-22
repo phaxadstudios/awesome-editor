@@ -1,0 +1,141 @@
+<!--
+=========================================================
+* Stylet Builds - v1.0.0 based on Stylet CSS by Nnamchi Israel
+* initial create by y2mate.com
+* Online Editor
+=========================================================
+
+
+* Copyright 2022 Nnamchi Israel (https://www.israel.vercel.app)
+* Copyright 2022 Apaxaa Studios Inc (https://www.apaxaa.vercel.app)
+* Licensed under MIT (https://github.com/phaxadstudios/stylet/blob/main/LICENSE.md)
+
+* 
+* Coded by y2mate
+* Redesigned by Nnamchi Israel
+
+=========================================================
+* Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />   
+        <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="Content-Language" content="en_US" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, shrink-to-fit=no user-scalable=yes" />
+        <meta name="robots" content="index, follow" />
+        <!-- not neccessary when downloaded -->
+        <!-- ols::debris[] -->
+        <meta property="og:title" content="Stylet Open Source Projects" />
+        <meta property="og:url" content="https://www.stylet.vercel.app" />
+        <meta property="og:local" content="en_US" />
+        <meta property="og:site_name" content="stylet" />
+        <meta property="og:type" content="website" />
+        <meta name="author" content="y2mate" />
+        <meta name="author" content="nnamchiisrael" /> 
+        <meta http-equiv="content-encoding " content="gzip " />
+        <meta http-equiv="x-dns-prefetch-control " content="on " />
+        <meta http-equiv="vary-header " content="Accept-Encoding " />
+        <meta property="og:description" content="An Online Editor built in Stylet.css and JS. Run codes instantantiously and it's an open source project." />
+        <meta name="keywords " content="Stylet css, online editor, codepen clone, js online editor, y2mate, css framework, open source, stylet project" />
+        <meta property="og:image" content="logo.png" />
+        <meta property="og:image:alt" content="stylet" />
+        <meta property="og:image:type" content="image/ico" />  
+        <meta name="referrer" content="origin-when-crossorigin" id="meta_referrer" />
+        <meta property="twitter:site" content="stylet" />
+        <meta property="twitter:creator" content="nnamchiisrael" />
+        <meta name="twitter:domain" content="www.stylet.vercel.app" />
+        <meta name="twitter:card" content="summary_large_image">
+        <meta property="twitter:image" content="./assets/img/favicon.ico">
+        <meta property="twitter:description" content="An Online Editor built in Stylet.css and JS. Run codes instantantiously and it's an open source project." />
+        <meta property="twitter:image:alt" content="stylet" />
+        <meta property="twitter:title" content="Stylet Open Source Projects" />
+        <meta name="hostname" content="stylet.vercel.app">
+        <meta property="og:image:width" content="1280" />
+        <meta property="og:image:height" content="640" />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:url" content="https://stylet.vercel.app" />
+        <meta property="og:title" content="Stylet CSS framework" />
+        <meta property="og:description" content="Stylet.css is an awesome modern CSS framework, designed in the aim of making responsive, beautiful and a website with awesome animations at ease. It is compactible for all browsers: Chrome. Firefox. Edge. IE. Safari. Opera. And also devices, Desktop, Laptop, Tablet, Mobile. Stylet does not require JS, and it is built with CSS." />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-title" content="Stylet CSS framework" />
+        <meta name="generator " content="Stylet">
+        <meta name="robots " content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large " />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0ed3cf" />
+        <link rel="apple-touch-icon" href="logo.png" />
+        <link rel="canonical" href="https://stylet.vercel.app" />
+		<link rel="icon" href="stylet.PNG" type="image/png">
+		<!-- end of ols::debris[] -->
+	    <title>Online Editor</title>
+        <!-- styling sheets introduction -->
+	    <link rel="stylesheet" type="text/css" href="css/stylet.css" />
+	    <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <!-- end of styling sheets -->
+        <!-- google font [Poppins] -->
+	    <link
+			href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap"
+			rel="stylesheet"
+		/>
+        <!-- end of google font [Poppins] -->
+</head>
+<body class="responsive">
+    <div class="main-editor">
+	   <button class="button">Run</button>
+       <!-- text-editor[IDE] section -->
+	   <div class="first responsive" contenteditable>
+        <!-- the codes are being written in this div, the "contenteditable" which 
+            means content editable, means the div can be edited 
+        -->
+	   </div>
+       <!-- end of text-editor[IDE] section -->
+
+       <!-- iframe[view] section -->
+	   <iframe class="second">
+        <!-- the codes written are turned into html, css and js scripts and
+            are placed inside this iframe
+        -->   
+       </iframe>
+       <!-- end of iframe[view] section -->
+    </div>
+    <!-- Javascript file introduction -->
+    <script type="text/javascript" src="app.js"></script>
+    <!-- end of javascript file introduction -->
+</body>
+
+
+		
+<!-- 	
+		
+	<html>
+<head>
+<link rel="stylesheet" type="text/css" href="http://localhost/paxaa/primeblogger/assets/css/stylet.css
+" /></head>
+<body class="purple-to-red-bg">
+<h1 class="text-blue text-center text-bold card royal-blue-to-dark-blue-bg">hello world </h1>
+<p class="text-white">This is Stylet's simple text editor built for easy 
+<span class="text-bold slide-right-2">Building webpages</span>
+<div class="card pad-25 dark-to-purple-bg text-center">
+<code class="pad-15">npm --install stylet</code>
+</div> -->
+</html>
