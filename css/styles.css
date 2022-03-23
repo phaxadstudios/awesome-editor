@@ -6,12 +6,15 @@
 	padding: 0;
 	margin: 0;
 }
+body{
+	background-color: #1C1B22;
+}
 .button-edit{
 	position: absolute;
 	right: 0;
 	padding: 0.4rem;
 	width: 4rem;
-	background: var(--purple);
+	background: var(--dark);
 	color: var(--white);
 	font-size: 1rem;
 	font-family: Poppins;
@@ -21,6 +24,8 @@
 .button-edit:hover{
 	background: var(--white);
 	color: var(--blue);
+	border-color: var(--purple);
+	border: 5px solid ;
 }
 .mobile-button{
 	display: none;
@@ -41,6 +46,8 @@
 }
 .first{
 	background-color: #1C1B22;
+	direction: ltr;
+	text-align: left;
 	width: 50%;
 	color: var(--orange);
 	font-family: Poppins;
@@ -94,7 +101,5 @@
 		width: 100%;
 		display: table-row;
 	}
-	.text-grey{
-		display: none;
-	}
+	
 }
