@@ -1,6 +1,7 @@
 <!--
 =========================================================
 * Stylet Builds - v1.0.0 based on Stylet CSS by Nnamchi Israel
+* initial create by y2mate.com
 * Online Editor
 =========================================================
 
@@ -47,11 +48,11 @@ THE SOFTWARE.
         <!-- not neccessary when downloaded -->
         <!-- ols::debris[] -->
         <meta property="og:title" content="Stylet Open Source Projects" />
-        <meta property="og:url" content="https://stylet.vercel.app" />
+        <meta property="og:url" content="https://www.stylet.vercel.app" />
         <meta property="og:local" content="en_US" />
         <meta property="og:site_name" content="stylet" />
         <meta property="og:type" content="website" />
-   
+        <meta name="author" content="y2mate" />
         <meta name="author" content="nnamchiisrael" /> 
         <meta http-equiv="content-encoding " content="gzip " />
         <meta http-equiv="x-dns-prefetch-control " content="on " />
@@ -88,7 +89,7 @@ THE SOFTWARE.
 		<!-- end of ols::debris[] -->
 	    <title>Online Editor</title>
         <!-- styling sheets introduction -->
-	    <link rel="stylesheet" type="text/css" href="https://stylet.vercel.app/stylet.css" />
+	    <link rel="stylesheet" type="text/css" href="css/stylet.css" />
 	    <link rel="stylesheet" type="text/css" href="css/styles.css">
         <!-- end of styling sheets -->
         <!-- google font [Poppins] -->
@@ -99,17 +100,21 @@ THE SOFTWARE.
         <!-- end of google font [Poppins] -->
 </head>
 <body class="responsive">
+   
     <div class="main-editor">
 	   <button class="button-edit button">Run</button>
        <!-- text-editor[IDE] section -->
-	   <div class="first" contenteditable autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+	   <div class="first color" contenteditable autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
         <!-- the codes are being written in this div, the "contenteditable" which 
             means content editable, means the div can be edited 
-
         -->
-        
+        <span class="text-grey text-bold"> &lt;html&gt; <br>
+            your codes goes here...
+            <br>&lt;/html&gt;
+        </span>
+       
 	   </div>
-      <button class=" mobile-button button button-design-royal-blue pad-3 column-12 mar-btm-2">Run</button>
+      
        <!-- end of text-editor[IDE] section -->
 
        <!-- iframe[view] section -->
