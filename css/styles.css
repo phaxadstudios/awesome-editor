@@ -94,4 +94,7 @@
 		width: 100%;
 		display: table-row;
 	}
+	.text-grey{
+		display: none;
+	}
 }
