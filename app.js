@@ -8,7 +8,6 @@
 const first = document.querySelector('.first');
 const iframe = document.querySelector('.second');
 const button = document.querySelector('button');
-const button_edit = document.querySelector('.button-edit');
 
 
 button.addEventListener("click", function(){
