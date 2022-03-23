@@ -8,6 +8,7 @@
 const first = document.querySelector('.first');
 const iframe = document.querySelector('.second');
 const button = document.querySelector('button');
+const button_edit = document.querySelector('.button-edit');
 
 
 button.addEventListener("click", function(){
@@ -17,6 +18,7 @@ button.addEventListener("click", function(){
 
 /** This function adds the no reload feature 
  * which executes the codes while still writing 
+
 **/ 
 first.addEventListener('keyup', function(){
 	var html = first.textContent;
