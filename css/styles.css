@@ -44,6 +44,17 @@ body{
 	border: 7px solid #36383f;
 
 }
+.first[data-placeholder]:not(:focus):not([data-div-placeholder-content]):before {
+
+    content: attr(data-placeholder);
+
+    float: left;
+
+    margin-left: 2px;
+
+    color: #b3b3b3;
+
+}
 .first{
 	background-color: #1C1B22;
 	direction: ltr;
