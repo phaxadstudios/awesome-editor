@@ -85,17 +85,17 @@ const first = document.querySelector('.first');
 const iframe = document.querySelector('.second');
 const button = document.querySelector('button');
 const button_edit = document.querySelector('.button-edit');
-
+const htmlEditor = CodeMirror(document.querySelector(".first"),
+{
+	
+	mode:"xml"
+});
 
 button_edit.addEventListener("click", function(){
 	var html = first.textContent;
 	iframe.src = "data:text/html;charset=utf-8," + encodeURI(html);
 })
-const htmlEditor = CodeMirror(document.querySelector(".first"),
-{
-	lineNumbers:true,
-	mode:"xml"
-});
+
 /** This function adds the no reload feature 
  * which executes the codes while still writing 
 
