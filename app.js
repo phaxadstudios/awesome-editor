@@ -91,7 +91,7 @@ button_edit.addEventListener("click", function(){
 	var html = first.textContent;
 	iframe.src = "data:text/html;charset=utf-8," + encodeURI(html);
 })
-const htmlEditor = CodeMirror(document.querySelector(".editor .first"),
+const htmlEditor = CodeMirror(document.querySelector(".first"),
 {
 	lineNumbers:true,
 	tabSize:4,
