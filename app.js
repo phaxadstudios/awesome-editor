@@ -94,7 +94,6 @@ button_edit.addEventListener("click", function(){
 const htmlEditor = CodeMirror(document.querySelector(".first"),
 {
 	lineNumbers:true,
-	tabSize:4,
 	mode:"xml"
 });
 /** This function adds the no reload feature 
