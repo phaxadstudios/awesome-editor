@@ -91,7 +91,12 @@ button_edit.addEventListener("click", function(){
 	var html = first.textContent;
 	iframe.src = "data:text/html;charset=utf-8," + encodeURI(html);
 })
-
+const htmlEditor = CodeMirror(document.querySelector(".editor .first"),
+{
+	lineNumbers:true,
+	tabSize:4,
+	mode:"xml"
+});
 /** This function adds the no reload feature 
  * which executes the codes while still writing 
 
